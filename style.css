@@ -1,0 +1,36 @@
+body {
+  font-family:"Georgia", Times, serif;
+  font-size:30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  max-width: 1000px;
+  background-color :#FFFF62;
+  text-align: center;
+  
+}
+
+input{
+  margin: 5px;
+  border: ;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  padding: 10px 10px;
+  cursor:pointer;
+  border: none;
+  font-size: 20px;
+  margin: 10px;
+}
+button:hover{
+  background-color: #ff69b4;
+}
+
+div{
+  color:#ff69b4
+}
+div::after{
+  content: "\01F525"
+}
